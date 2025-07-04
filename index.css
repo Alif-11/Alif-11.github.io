@@ -1,0 +1,9 @@
+ @keyframes example {
+   from {
+     color: red;
+   }
+
+   to {
+     color: yellow;
+   }
+ }
