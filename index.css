@@ -1,9 +1,14 @@
  @keyframes example {
-   from {
-     color: red;
+   0% {
+     opacity: 0;
    }
 
-   to {
-     color: yellow;
+   10% {
+     opacity: 1;
+     color: white;
+   }
+
+   100% {
+     color: oklch(87.1% 0.15 154.449);
    }
  }
