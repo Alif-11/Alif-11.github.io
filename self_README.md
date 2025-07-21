@@ -5,3 +5,5 @@ This is where you will code your own portfolio website
 [...huh?](https://dustinbrett.com)
 
 [...HUH???](https://www.sector32.net)
+
+[Firework animation](https://alvaromontoro.com/blog/68002/creating-a-firework-effect-with-css)
