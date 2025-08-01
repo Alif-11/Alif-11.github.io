@@ -12,7 +12,10 @@
 <body class="bg-black font-mono">
   <nav class="flex justify-between items-center bg-gray-700 text-white shadow fixed top-0 left-0 w-full h-16 px-8">
     <div><a href="./index.html">To Home</a></div>
-    <div><a href="./about_me.html">About Me</a></div>
+    <div class="flex flex-row gap-16">
+      <div><a href="./about_me.html">About Me</a></div>
+      <div><a href="./blog.html">Blog</a></div>
+    </div>
   </nav>
 
 
@@ -36,24 +39,9 @@
 
   <div class="flex w-3/5 mx-auto flex-col space-y-8">
 
-    <!-- Project One: ML Library -->
-    <div class="text-2xl text-blue-300">
-      ML Library From Scratch
-    </div>
-    <div class="grow text-white flex flex-row gap-32">
-
-      <div>
-        <div class="text-blue-400 underline"><a href="https://github.com/Alif-11/Kaggle-ML-Algorithm-Musings">
-            Link to the ML Library [no README.md as of yet :( ].</a></div>
-      </div>
-
-      I'm making my own ML library from scratch! As of now, it features a KNN
-      implementation, and an in-progress decision tree model file!
-    </div>
-
-    <!-- Project Two: LLMs From Scratch -->
+    <!-- Project One: LLMs From Scratch -->
     <div class="text-2xl text-purple-300">
-      LLM From Scratch
+      <a href="./blog.html#llm-from-scratch" class="hover:underline"></a>LLM From Scratch</a>
     </div>
     <div class="grow text-white flex flex-row gap-32">
 
@@ -62,6 +50,7 @@
             the LLM I'm building following Sebastian Raschka.</a></div>
         <div class="text-purple-400 underline"><a href="https://github.com/Alif-11/LLM-From-Scratch">Link to
             the LLM I'm building following Andrej Karpathy.</a></div>
+        <div class="text-green-400 underline"><a href="./blog.html#llm-from-scratch">Read more in my blog →</a></div>
       </div>
 
       I'm following along with Sebastian Raschka's and Andrej Karpathy's videos on
